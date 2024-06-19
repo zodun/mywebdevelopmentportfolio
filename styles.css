@@ -1,0 +1,130 @@
+/* General Styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background: #fff;
+    text-align: center; /* Center align text */
+  }
+  
+  /* Profile Image */
+  a img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    display: inline-block; /* Display as inline-block for centering */
+    margin: 20px; /* Adjust margin as needed */
+    border: 2px solid #ccc;
+  }
+  
+  /* Author Info */
+  h3 {
+    color: #777;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Main Title */
+  h1 {
+    color: #333;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  /* Subheadings */
+  h2 {
+    color: #333;
+    font-size: 24px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+    margin-top: 40px;
+  }
+  
+  /* Related Content */
+  h4 {
+    color: #333;
+    font-size: 20px;
+    margin-top: 40px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+  }
+  
+  /* Images */
+  img {
+    max-width: 100%;
+    margin-bottom: 20px;
+    border-radius: 50%; /* Making all images circular */
+  }
+  
+  /* Make last two images the same size */
+  img:nth-last-of-type(1),
+  img:nth-last-of-type(2) {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 0 10px; /* Adjust margin as needed */
+  }
+  
+  /* Specifically target the second image */
+  img:nth-of-type(3) {
+    width: 150px; /* Adjust size of the second image */
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  /* Paragraphs */
+  p {
+    margin-bottom: 20px;
+    line-height: 1.8;
+    font-size: 16px;
+  }
+  
+  /* Links */
+  a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* List */
+  ul {
+    list-style-type: square;
+    padding-left: 20px;
+    color: #333;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Contact Section */
+  #contact {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-top: 40px;
+    border-radius: 5px;
+    text-align: left; /* Align contact section content to the left */
+  }
+  
+  #contact p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  #contact strong {
+    color: #333;
+  }
+  
